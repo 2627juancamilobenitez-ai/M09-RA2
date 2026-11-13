@@ -13,7 +13,9 @@ public class Fil extends Thread{
         for(int i = 1; i <= 1000; i++){
 
             System.out.println(nombre + ": " + i );
-
+            if(i == 1000){
+                System.out.println("Acaba el Fil " + nombre);
+            }
         }
 
     }

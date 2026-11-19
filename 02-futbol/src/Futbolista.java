@@ -1,6 +1,3 @@
-
-import java.util.Random;
-
 public class Futbolista extends Thread{
 
     private int ngolsintirades = 0;
@@ -16,9 +13,15 @@ public class Futbolista extends Thread{
     public void run() {
         
         for(int i = 0; i < NUM_TIRADES; i++){
-            if(PROBABILITAT < )
+            if(Math.random() < PROBABILITAT){
+                ngolsintirades++;
+            }
         }
 
+    }
+
+    public int getNgolsintirades(){
+        return ngolsintirades;
     }
 
     

@@ -1,4 +1,4 @@
-public class PrincipalsDiferents {
+public class PrincipalDiferents {
     
     public static void main(String[] args) {
         
@@ -8,8 +8,9 @@ public class PrincipalsDiferents {
         f1.setPriority(10);
         f2.setPriority(1);
 
-        f1.start();
         f2.start();
+        f1.start();
+        
 
 
     }

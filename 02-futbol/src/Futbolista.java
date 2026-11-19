@@ -24,6 +24,10 @@ public class Futbolista extends Thread{
         return ngolsintirades;
     }
 
+    public int getNumJugadors(){
+        return NUM_JUGADORS;
+    }
+
     
 
 
